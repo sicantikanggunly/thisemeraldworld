@@ -1,14 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFDF6C"/>
-      <stop offset="1" stop-color="#E29B40"/>
-    </linearGradient>
-    <filter id="s" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/><feOffset dy="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect x="2" y="4" rx="10" ry="10" width="36" height="32" fill="url(#g)" stroke="#D6C38C" stroke-width="2" filter="url(#s)"/>
-  <path d="M12 28 L20 12 L28 28 Z" fill="white" opacity=".9"/>
-  <text x="48" y="27" font-family="serif" font-size="18" fill="url(#g)" font-weight="700" letter-spacing=".5">EMERALD WORLD</text>
-</svg>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Emerald World</title>
+
+  <!-- Favicon pakai logo -->
+  <link rel="icon" type="image/png" href="assets/emerald_world_logo_100x100.png">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="/">
+      <img
+        src="assets/emerald_world_logo_100x100.png"
+        alt="Emerald World"
+        width="100" height="100"
+        decoding="async" loading="eager"
+      />
+      <span class="brand">Emerald <strong>World</strong></span>
+    </a>
+  </header>
+
+  <main>
+    <h1>Selamat datang di Emerald World</h1>
+  </main>
+</body>
+</html>
