@@ -1,30 +1,7 @@
-<!doctype html>
-<html lang="id">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Emerald World</title>
+your-site/
+├─ index.html
+├─ assets/
+│  └─ emerald_world_logo_100x100.png
+└─ css/
+   └─ style.css
 
-  <!-- Favicon pakai logo -->
-  <link rel="icon" type="image/png" href="assets/emerald_world_logo_100x100.png">
-
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="logo" href="/">
-      <img
-        src="assets/emerald_world_logo_100x100.png"
-        alt="Emerald World"
-        width="100" height="100"
-        decoding="async" loading="eager"
-      />
-      <span class="brand">Emerald <strong>World</strong></span>
-    </a>
-  </header>
-
-  <main>
-    <h1>Selamat datang di Emerald World</h1>
-  </main>
-</body>
-</html>
